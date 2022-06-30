@@ -105,6 +105,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .header__btn2 {
@@ -121,4 +122,214 @@ body {
   line-height: 24px;
   color: #FFFFFF;
   border: none;
+  cursor: pointer;
+}
+
+.head {
+  width: 100%;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+.head__info {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+  /* or 150% */
+  text-transform: capitalize;
+  color: #CEDFF6;
+}
+
+.head__txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+  text-transform: capitalize;
+  color: #989CA2;
+  padding-bottom: 70px;
+  padding-top: 30px;
+}
+
+.head__btn1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  text-transform: capitalize;
+  color: #FFFFFF;
+  width: 192px;
+  height: 55px;
+  left: 300px;
+  top: 624px;
+  background: #FF014F;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.head__btn2 {
+  width: 225px;
+  height: 55px;
+  left: 522px;
+  top: 624px;
+  border: 1px solid #FF014F;
+  border-radius: 10px;
+  background-color: #343842;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  text-transform: capitalize;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.head__image {
+  position: absolute;
+  padding-left: 570px;
+}
+
+.itam {
+  padding-top: 400px;
+}
+
+.itam__info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.itam__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+  color: #CEDFF6;
+}
+
+.itam__carte {
+  display: flex;
+  flex-direction: row;
+}
+
+.itam__txt {
+  width: 560px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  color: #989CA2;
+}
+
+.itam__menu {
+  width: 688px;
+  height: 70px;
+  left: 930px;
+  top: 972px;
+  background: #212428;
+  box-shadow: -2px -5px 10px rgba(109, 109, 109, 0.15);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.itam__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  color: #E5E5E5;
+}
+.itam__link:hover {
+  height: 50px;
+  background: #FF014F;
+  border-radius: 5px;
+}
+
+.itam__block1 {
+  width: 307px;
+  height: 380px;
+  left: 300px;
+  top: 1122px;
+  background: linear-gradient(133.27deg, #23252B 3%, #17191D 98.83%);
+  box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.43);
+  border-radius: 10px;
+}
+
+.itam__account {
+  position: absolute;
+  width: 225px;
+  height: 50px;
+  left: 96px;
+  top: 1350px;
+  background: #212428;
+  border: 1px solid #FF014F;
+  box-shadow: 0px -3px 6px rgba(78, 78, 78, 0.18);
+  border-radius: 0px 30px 30px 0px;
+}
+
+.itam__price {
+  position: absolute;
+  width: 267px;
+  height: 50px;
+  left: 120px;
+  top: 1500px;
+  padding-top: 15px;
+  padding-left: 10px;
+  background: #FF014F;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  color: #CEDFF6;
+}
+
+.itam__name {
+  padding-left: 10px;
+  padding-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+  color: #FF014F;
+}
+
+.itam__social {
+  padding-top: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0% auto;
 }/*# sourceMappingURL=style.css.map */
