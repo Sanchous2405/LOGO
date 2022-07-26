@@ -1,0 +1,77 @@
+.block{
+    padding-top: 110px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block_head {
+    width: 307px;
+    height: 184px;
+
+
+    background: linear-gradient(133.27deg, #23252B 3%, #17191D 98.83%);
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+}
+.block_name {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.block_number {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #FF014F;
+}
+.block__button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  
+
+
+  
+}
+.block__btn1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    width: 149px;
+    height: 40px;
+    left: 379px;
+    top: 2146px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+background-color: #212428;
+border: 1px solid #FF014F;
+    border-radius: 6px;
+    &:hover{
+        
+        color: #FFFFFF;
+        background: #FF014F;
+            }
+}
