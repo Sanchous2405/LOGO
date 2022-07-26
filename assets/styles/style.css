@@ -272,6 +272,21 @@ body {
   border-radius: 5px;
 }
 
+.itam__catalog {
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itam__catalog2 {
+  padding-top: 26px;
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .itam__block1 {
   width: 307px;
   height: 380px;
@@ -286,12 +301,19 @@ body {
   position: absolute;
   width: 225px;
   height: 50px;
-  left: 96px;
+  left: 100px;
   top: 1350px;
   background: #212428;
   border: 1px solid #FF014F;
   box-shadow: 0px -3px 6px rgba(78, 78, 78, 0.18);
   border-radius: 0px 30px 30px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  color: #FFFFFF;
 }
 
 .itam__price {
@@ -332,4 +354,37 @@ body {
   flex-direction: row;
   justify-content: space-around;
   margin: 0% auto;
+}
+
+.itam__sake {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.itam__button {
+  padding-left: 20px;
+}
+
+.itam__btn1 {
+  width: 267px;
+  height: 50px;
+  left: 657px;
+  top: 1432px;
+  border: 1px solid #FF014F;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  color: #FFFFFF;
+  background-color: #212428;
 }/*# sourceMappingURL=style.css.map */
